@@ -2,6 +2,9 @@
 name = "elon_sort"
 version = "0.1.0"
 edition = "2021"
-
+authors = ["williammmm me@williammmm.dev"]
+description = "the worst sorting algorithm"
+repository = "https://github.com/williamwith4ms/elon_sort"
+license = "GPL-3.0"
 [dependencies]
 rand = "0.9"
