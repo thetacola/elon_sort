@@ -1,7 +1,7 @@
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "../lib/elon_sort.h"
+#include "../include/elon_sort.h"
 
 int sort(void *varr, int size, int datatype_size) {
 	// Don't do this.
