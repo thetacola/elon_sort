@@ -1,1 +1,4 @@
 rust/README.md
+.idea/
+*.iml
+c/bin/*
