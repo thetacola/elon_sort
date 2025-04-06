@@ -8,7 +8,7 @@ linux_install: lib/libelonsort.so lib/libelonsort.a include/elon_sort.h bin/elon
 	sudo cp lib/libelonsort.so /usr/lib/libelonsort.so
 	sudo cp lib/libelonsort.a /usr/lib/libelonsort.a
 	sudo cp include/elon_sort.h /usr/include/elon_sort.h
-	sudo cp bin/elon_sort_test /bin/elon_sort_test
+	sudo cp bin/elon_sort_test /usr/local/bin/elon_sort_test
 		
 
 # TODO: make windows version compile
