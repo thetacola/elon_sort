@@ -24,7 +24,7 @@ int sort(void *varr, int size, int datatype_size) {
 					arr[(j * datatype_size) + k] = arr[((j + 1) * datatype_size) + k];
 				}
 			}
-			arr[(size) * datatype_size] = 0;
+			arr[(size - 1) * datatype_size] = 0;
 			newsize = newsize - 1;
 		}
 	}
